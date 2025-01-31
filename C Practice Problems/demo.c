@@ -1,9 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int num=5;
+    int num, num2;
 
-    printf("%d", num);
+    printf("Enter your numbers: ");
+    scanf("%d%d", &num, &num2);
+
+    printf("%d\n", num);
+    printf("%d\n", num2);
 
     return 0;
 }
